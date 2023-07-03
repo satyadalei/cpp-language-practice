@@ -9,7 +9,7 @@ class Number{
          Number(){
             a = 0;
          }; 
-        //customised constructor
+        //customised or parameterised constructor
         Number(int b){
            a = b;
         }
@@ -19,7 +19,7 @@ class Number{
 };
 int main(){
     Number A; // default constructor will be called
-    Number B(4); // implicit call
+    Number B(4); // implicit call parameterised constructor will called.
     Number C = Number(5); // explicit call
     Number D = 6; // explicit call
     
