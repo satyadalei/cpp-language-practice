@@ -15,7 +15,7 @@ class Static_Member_Function{
          cout<<"Total objects : " << count << endl;
        }
 };
-int Static_Member_Function::count; //static data member definition
+int Static_Member_Function::count; //static data member definition(default value = 0)
 int main(){
     Static_Member_Function obj1,obj2;
     obj1.Assign();
