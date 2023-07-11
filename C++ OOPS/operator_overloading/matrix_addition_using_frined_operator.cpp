@@ -68,6 +68,6 @@ int main(){
     
     mat4 = mat1 - mat2;
     cout<<" Difference between matrix 1 and 2 is " << endl;
-    mat4.ShowMatrix();  
+    mat4.ShowMatrix();
     return 0;
 }
