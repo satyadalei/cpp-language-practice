@@ -32,8 +32,9 @@ class Detail : public Student{
 };
 int main(){
     // object derived class kind
-    Detail derivedObject;
+    Detail derivedObject, obj2;
     derivedObject.Accept();
     derivedObject.Display();
+    obj2.Accept();
     return 0;
 }
