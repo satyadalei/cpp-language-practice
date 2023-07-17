@@ -2,6 +2,7 @@
 using namespace std;
 
 class Person{
+   protected:
     char name[20];
     int age;
     char gendre[10];
@@ -17,6 +18,7 @@ class Person{
          }
 };
 class Student : public Person{
+   protected:
     char branch[10];
     int roll;
 
