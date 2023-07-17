@@ -8,7 +8,7 @@ class PTO
     char name[20];
     int id;
     public:
-         void Get(char a[], int b)
+         void Get(char *a, int b)
          {
             strcpy(name, a);
             id = b;
